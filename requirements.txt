@@ -1,4 +1,4 @@
 pandas
+json
 numpy
-seaborn
 matplotlib
