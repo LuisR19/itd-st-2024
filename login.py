@@ -11,7 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 def connect_to_mongo():
-    client = MongoClient("mongodb+srv://aldoparada:AldoParada0805@cluster0.tstzpba.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    client = MongoClient("")
     db = client["nba"]
     return db
 
